@@ -12,6 +12,7 @@ struct CanvasDrawingExample: View {
     @State private var lines: [Line] = []
     @State private var selectedColor = Color.orange
     
+    
     var body: some View {
         VStack {
             HStack {
